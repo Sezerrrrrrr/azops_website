@@ -9,14 +9,19 @@ function Component_5_2() {
       className="flex gap-y-[3%] gap-x-[3%] caret-[#363d43] mt-16"
       data-component-id="Component_5_2"
     >
-      <div className="grow basis-[0%] caret-[#363d43]">
-        <img
-          src="https://cdn.prod.website-files.com/687e1b1815336f057e7b0e2a/6890a03aa71d29dac0e5666d_a58b4142bab31e27c76e9701756d1e68_solution-img.png"
-          loading="lazy"
-          className="opacity-0 align-middle w-full max-w-full inline-block caret-[#363d43] select-none"
-        />
+      <div className="flex-1 min-w-0 caret-[#363d43]">
+        <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+          <iframe
+            className="absolute top-0 left-0 w-full h-full rounded-lg"
+            src="https://www.youtube.com/embed/X2JBdsMTmWs"
+            title="Hear Natalie - AI Voice automation"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
       </div>
-      <div className="flex flex-col grow basis-[0%] justify-between items-start caret-[#363d43] my-[1%]">
+      <div className="flex flex-col flex-1 min-w-0 justify-between items-start caret-[#363d43] my-[1%]">
         <Component_5_2_1 />
         <Component_5_2_2 />
         <Component_5_2_3 />
