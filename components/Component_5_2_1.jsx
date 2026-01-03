@@ -5,7 +5,7 @@ function Component_5_2_1() {
       data-component-id="Component_5_2_1"
     >
       <div className="caret-[#363d43]">
-        <div className="bg-[#8993ff] text-[#101920] [font-family:Chivo,sans-serif,system-ui,sans-serif] w-9 h-8 flex justify-center items-center opacity-100 caret-[#101920] rounded-br-[8px] rounded-t-[8px] rounded-bl-[8px]">
+        <div className="bg-[#8993ff] text-[#101920] [font-family:Chivo,sans-serif,system-ui,sans-serif] w-9 h-8 flex justify-center items-center opacity-0 caret-[#101920] rounded-br-[8px] rounded-t-[8px] rounded-bl-[8px]">
           <div className="caret-[#101920]">01</div>
         </div>
       </div>
@@ -14,7 +14,7 @@ function Component_5_2_1() {
           Configure the sets of questions
         </div>
         <p className="leading-[24px] caret-[#363d43] my-0">
-          For each kind of appointment, you can configure the questions that Natalie will ask
+          For each kind of appointment, you can configure the questions that Anna will ask
         </p>
       </div>
     </div>

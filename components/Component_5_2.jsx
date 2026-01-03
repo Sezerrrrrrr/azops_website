@@ -1,18 +1,45 @@
+import { useEffect, useRef, useState } from 'react';
 import Component_5_2_1 from './Component_5_2_1';
 import Component_5_2_2 from './Component_5_2_2';
 import Component_5_2_3 from './Component_5_2_3';
 import Component_5_2_4 from './Component_5_2_4';
 
 function Component_5_2() {
+  const [isVisible, setIsVisible] = useState(false);
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.2 }
+    );
+
+    if (videoRef.current) {
+      observer.observe(videoRef.current);
+    }
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <div
       className="flex gap-y-[3%] gap-x-[3%] caret-[#363d43] mt-16"
       data-component-id="Component_5_2"
     >
-      <div className="flex-1 min-w-0 caret-[#363d43]">
+      <div 
+        ref={videoRef}
+        className={`flex-1 min-w-0 caret-[#363d43] transition-all duration-700 ease-out ${
+          isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'
+        }`}
+      >
         <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
           <iframe
-            className="absolute top-0 left-0 w-full h-full rounded-lg"
+            className="absolute top-0 left-0 w-full h-full rounded-br-[24px] rounded-t-[24px] rounded-bl-[24px]"
             src="https://www.youtube.com/embed/X2JBdsMTmWs"
             title="Hear Natalie - AI Voice automation"
             frameBorder="0"

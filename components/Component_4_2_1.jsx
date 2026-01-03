@@ -7,12 +7,11 @@ function Component_4_2_1() {
       <div className="h-px caret-[#363d43]"></div>
       <div className="flex justify-start items-center gap-y-4 gap-x-4 caret-[#363d43]">
         <img
-          src="/icons/cyan insurance icon.svg"
+          src="https://cdn.prod.website-files.com/687e1b1815336f057e7b0e2a/68909514d217527a8df095a9_Component%2018.svg"
           loading="lazy"
-          width="64"
-          height="64"
-          alt="Insurance verification icon"
-          className="align-middle w-16 h-16 max-w-full aspect-[auto_64_/_64] block caret-[#363d43] select-none"
+          width="48"
+          height="48"
+          className="align-middle w-12 h-12 max-w-full aspect-[auto_48_/_48] block caret-[#363d43] select-none"
         />
         <div className="text-[#101920] leading-[28.6px] text-[22px] caret-[#101920]">
           1 to 6 hours a day on insurance verification tasks
@@ -21,29 +20,27 @@ function Component_4_2_1() {
       <div className="bg-[#d2d2d2] w-full h-px caret-[#363d43]"></div>
       <div className="flex justify-start items-center gap-y-4 gap-x-4 caret-[#363d43]">
         <img
-          src="/icons/yellow growth icon.svg"
+          src="https://cdn.prod.website-files.com/687e1b1815336f057e7b0e2a/68909514bc05764047fb483d_Component%2024.svg"
           loading="lazy"
-          width="64"
-          height="64"
-          alt="Claim denials icon"
-          className="align-middle w-16 h-16 max-w-full aspect-[auto_64_/_64] block caret-[#363d43] select-none"
+          width="48"
+          height="48"
+          className="align-middle w-12 h-12 max-w-full aspect-[auto_48_/_48] block caret-[#363d43] select-none"
         />
         <div className="text-[#101920] leading-[28.6px] text-[22px] caret-[#101920]">
-          Claim denials because of inaccurate information
+          Claim 
         </div>
       </div>
       <div className="bg-[#d2d2d2] w-full h-px caret-[#363d43]"></div>
       <div className="flex justify-start items-center gap-y-4 gap-x-4 caret-[#363d43]">
         <img
-          src="/icons/red dentist icon.svg"
+          src="https://cdn.prod.website-files.com/687e1b1815336f057e7b0e2a/68909514619cc0af54ca967f_Component%2025.svg"
           loading="lazy"
-          width="64"
-          height="64"
-          alt="Money on the table icon"
-          className="align-middle w-16 h-16 max-w-full aspect-[auto_64_/_64] block caret-[#363d43] select-none"
+          width="48"
+          height="48"
+          className="align-middle w-12 h-12 max-w-full aspect-[auto_48_/_48] block caret-[#363d43] select-none"
         />
         <div className="text-[#101920] leading-[28.6px] text-[22px] caret-[#101920]">
-          Owners leaving money on the table
+          Trend Monitoring = Hype ≠ Winners
         </div>
       </div>
       <div className="bg-[#d2d2d2] w-full h-px caret-[#363d43]"></div>

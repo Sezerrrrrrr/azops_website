@@ -5,7 +5,7 @@ function Component_5_2_4() {
       data-component-id="Component_5_2_4"
     >
       <div className="caret-[#363d43]">
-        <div className="bg-[#e8eaff] text-[#101920] [font-family:Chivo,sans-serif,system-ui,sans-serif] w-9 h-8 flex justify-center items-center opacity-100 caret-[#101920] rounded-br-[8px] rounded-t-[8px] rounded-bl-[8px]">
+        <div className="bg-[#e8eaff] text-[#101920] [font-family:Chivo,sans-serif,system-ui,sans-serif] w-9 h-8 flex justify-center items-center opacity-0 caret-[#101920] rounded-br-[8px] rounded-t-[8px] rounded-bl-[8px]">
           <div className="caret-[#101920]">04</div>
         </div>
       </div>
@@ -14,7 +14,7 @@ function Component_5_2_4() {
           Structured reportings
         </div>
         <p className="leading-[24px] caret-[#363d43] my-0">
-          Natalie then writes the benefits information in a structured format in Open Dental
+          Anna then writes the benefits information in a structured format in Open Dental
         </p>
       </div>
     </div>
