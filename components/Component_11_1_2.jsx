@@ -21,12 +21,12 @@ function Component_11_1_2() {
             type="email"
             id="email-2"
             required
-            className="bg-[rgba(255,255,255,0)] leading-[1.42857] text-[16px] align-middle w-full h-[38px] block caret-white [border-top-style:none] [border-right-style:none] [border-left-style:none] pl-0 pr-3 py-2 border-t-0 border-t-black border-b-[#64696d] border-x-0 border-x-black border-b"
+            className="bg-transparent text-white leading-[1.42857] text-[16px] align-middle w-full h-[38px] block caret-white focus:outline-none pl-0 pr-3 py-2 border-0 border-b border-b-[#64696d] focus:border-b-white transition-colors"
           />
           <input
             type="submit"
-            defaultvalue="SIGN UP"
-            className="text-[#101920] [font-family:Chivo,sans-serif,system-ui,sans-serif] text-[16px] uppercase text-center [white-space-collapse:preserve] [text-wrap-mode:nowrap] block caret-[#101920] select-none [appearance:button] my-[15px] px-4 py-2 rounded-br-[4px] rounded-t-[4px] rounded-bl-[4px]"
+            value="SIGN UP"
+            className="bg-white text-[#101920] [font-family:Chivo,sans-serif,system-ui,sans-serif] text-[16px] uppercase text-center whitespace-nowrap block caret-[#101920] cursor-pointer px-4 py-2 rounded-br-[4px] rounded-t-[4px] rounded-bl-[4px] hover:bg-[#5CECFF] hover:text-[#101921] transition-colors duration-200"
           />
         </form>
         <div
